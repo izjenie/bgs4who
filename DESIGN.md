@@ -33,22 +33,21 @@ not as four competing colours. Gold appears sparingly so it stays an accent.
 
 ## Typography (R-06)
 
-Google Fonts, chosen to stay off the model-default roster (Inter, Geist, Space Grotesk, DM Sans,
-Poppins, Montserrat, Playfair Display) that makes generated pages read as generated.
+Google Fonts. The page is set in a single family, **Figtree** (`wght@300..900`), for both display
+and text, fallback `ui-sans-serif, system-ui, ...`.
 
-- Headings: **Source Serif 4** (`opsz,wght@8..60,200..900`), fallback Georgia, Times New Roman.
-  Reason: an Adobe open-source serif with real optical sizes, drawn for reading; its transitional
-  forms and sturdy stroke contrast give the institutional gravitas the campaign register needs, and
-  they echo the high-contrast serif on the campaign poster.
-- Body and UI: **Source Sans 3** (`wght@200..900`), fallback `ui-sans-serif, system-ui, ...`.
-  Reason: the humanist companion to Source Serif 4 from the same designer; drawn for interface and
-  long-form legibility, neutral enough to defer to the headings, with a variable weight axis that
-  covers every weight the stylesheet uses (650, 750, 900).
-- The pair is one superfamily, so the page reads as a single typographic system rather than two
-  fonts borrowed from different places.
-- Both are variable fonts served from the Google Fonts CDN with `display=swap`. System fallbacks
-  remain in the stack, so the page still renders if the CDN is unreachable.
-- No monospace, no wide-tracked uppercase display type.
+- Reason: Figtree is a geometric-humanist sans with a tall x-height, open apertures and a variable
+  weight axis (300-900) that covers every weight the stylesheet uses (400 body, 650 nav, 700
+  headings, 750 button, 800 eyebrow, 900 brand). One family means the page reads as a single system:
+  hierarchy comes from size, weight and the navy/gold palette, not from a second typeface.
+- It is not one of the model-default picks (Inter, Geist, Space Grotesk, DM Sans, Poppins,
+  Montserrat, Playfair Display), so the page does not read as generated at a glance.
+- Tradeoff, stated honestly: an all-sans setting gives up the high-contrast serif echo of the
+  campaign poster that a display serif would carry. The register becomes cleaner and more modern,
+  less literary; the campaign's gravitas now rests on scale, the navy field and the gold accent.
+- Headings are 700, body 400; no monospace, no wide-tracked uppercase display type.
+- Served from the Google Fonts CDN with `display=swap`; system fallbacks remain in the stack, so the
+  page still renders if the CDN is unreachable.
 
 ## Layout (R-31)
 
