@@ -41,11 +41,19 @@
     .voices{display:grid;grid-template-columns:1fr 1fr;gap:26px;margin-top:40px}.voice{border:1px solid var(--line);padding:34px}.voice p{font:1.15rem/1.6 var(--display);color:#324458}.voice b{display:block;color:var(--navy)}.voice span{font-size:.86rem;color:var(--muted)}
     .human{background:linear-gradient(90deg,rgba(2,38,72,.96),rgba(2,38,72,.6)),url('assets/walk-the-talk-25.jpg') center/cover;color:white}.human h2{color:white}.human p{max-width:650px;font-size:1.15rem;color:#e3edf4}
     .cv{display:grid;grid-template-columns:1fr 1fr;gap:0 60px;margin-top:40px;align-items:start}.cv-col>h3:first-child{margin-top:0}.cv h3{color:var(--navy);border-bottom:1px solid var(--line);padding-bottom:8px}.cv p{color:var(--muted)}.cv b{color:var(--ink)}
-    .news{background:#f4f8fb}.news-head h2{max-width:11em}.news-grid{margin-top:48px}.channel{background:var(--navy);padding:42px 40px}.channel h3{color:#fff;font:700 clamp(1.7rem,3vw,2.1rem)/1.15 var(--display);letter-spacing:-.02em;margin:.25em 0 .5em}.channel p{color:#cfe0ec;max-width:52ch;margin:0 0 1.7em}.button.gold{background:var(--gold);color:#3a2a00;border-color:var(--gold)}
+    .news{background:#f4f8fb}.news-head h2{margin:.18em 0 .3em}.news-head .intro{margin:0}
+    .filters{display:flex;flex-wrap:wrap;justify-content:center;gap:4px;width:fit-content;max-width:100%;margin:34px auto 0;padding:6px;background:#fff;border:1px solid var(--line);border-radius:999px}.filters button{border:0;background:none;font:650 .95rem/1 var(--sans);color:#48596a;padding:.72rem 1.35rem;border-radius:999px;cursor:pointer}.filters button:hover{color:var(--navy)}.filters button[aria-pressed="true"]{background:var(--navy);color:#fff}
+    .news-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;margin-top:42px}.post{display:flex;flex-direction:column;background:#fff;border:1px solid var(--line);border-radius:10px;overflow:hidden}.post[hidden]{display:none}
+    .post-media{position:relative;aspect-ratio:16/10;overflow:hidden;background:linear-gradient(135deg,#002f5f,#0b5fa5)}.post-media img{width:100%;height:100%;object-fit:cover;display:block}.post-media::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,25,50,0) 38%,rgba(0,22,45,.86) 100%)}.badge{position:absolute;top:14px;left:14px;z-index:2;background:rgba(255,255,255,.95);color:var(--navy);font:750 .76rem/1 var(--sans);padding:.44rem .78rem;border-radius:999px}.post-media h3{position:absolute;left:0;right:0;bottom:0;z-index:2;margin:0;padding:0 22px 18px;color:#fff;font:700 1.18rem/1.28 var(--display)}
+    .post-body{display:flex;gap:16px;align-items:center;justify-content:space-between;padding:20px 22px}.post-body p{margin:0;color:var(--muted);font-size:.94rem}.go{flex:none;width:40px;height:40px;border-radius:50%;border:1px solid var(--line);display:grid;place-items:center;color:var(--navy);font-size:1.05rem}.post{position:relative}.post:hover{border-color:#c2d3e2;box-shadow:0 12px 32px rgba(0,20,40,.09)}.post:hover .go{background:var(--navy);border-color:var(--navy);color:#fff}.post-open{position:absolute;inset:0;z-index:3;border:0;background:none;padding:0;cursor:pointer;border-radius:10px}.post-open:focus-visible{outline:3px solid var(--gold);outline-offset:-3px}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+    .modal{position:fixed;inset:0;z-index:60;display:grid;place-items:center;padding:24px}.modal[hidden]{display:none}.modal-backdrop{position:absolute;inset:0;background:rgba(4,20,38,.55);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}.modal-card{position:relative;width:min(720px,100%);max-height:88vh;overflow:auto;background:#fff;border-radius:16px;box-shadow:0 30px 80px rgba(0,20,40,.35)}.modal-close{position:absolute;top:16px;right:16px;z-index:3;width:40px;height:40px;border-radius:50%;border:0;background:rgba(255,255,255,.95);color:var(--navy);font-size:1.3rem;line-height:1;cursor:pointer;display:grid;place-items:center}.modal-media{position:relative;min-height:288px;display:flex;align-items:flex-end;overflow:hidden;background:linear-gradient(135deg,#002f5f,#0b5fa5)}.modal-media img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 22%}.modal-media::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,25,50,0) 32%,rgba(0,22,45,.88) 100%)}.modal-media .badge{position:absolute;top:22px;left:24px}.modal-media h3{position:relative;z-index:2;margin:0;padding:0 28px 22px;color:#fff;font:700 clamp(1.35rem,2.6vw,1.85rem)/1.22 var(--display);letter-spacing:-.02em}.modal-body{padding:26px 28px 30px}.modal-body p{margin:0 0 1em;color:#3d4d5c}.modal-body p:last-child{margin-bottom:0}.modal-body p a{color:var(--blue);text-decoration:underline;text-underline-offset:2px}.modal-body p a:hover{color:var(--navy)}.modal-body .tags{color:var(--blue);font-weight:650}.modal-links{margin-top:1.5em;padding-top:1.2em;border-top:1px solid var(--line)}.modal-links p{margin:0 0 .5em;font-size:.92rem}.modal-links p:last-child{margin-bottom:0}.modal-links a{color:var(--blue);word-break:break-word}.photo-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:1.6em}.photo-grid img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:8px;display:block}.photo-grid img.portrait{object-position:50% 16%}.photo-open{padding:0;border:0;background:none;cursor:pointer;display:block;border-radius:8px;line-height:0}.photo-open:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+    .lb-nav{position:absolute;top:50%;transform:translateY(-50%);z-index:3;width:48px;height:48px;border-radius:50%;border:0;background:rgba(255,255,255,.92);color:var(--navy);display:grid;place-items:center;cursor:pointer;box-shadow:0 6px 20px rgba(0,10,25,.35)}.lb-nav:hover{background:#fff}.lb-prev{left:20px}.lb-next{right:20px}.lb-nav[hidden]{display:none}
+    .lightbox{position:fixed;inset:0;z-index:70;display:grid;place-items:center;padding:24px}.lightbox[hidden]{display:none}.lightbox img{position:relative;z-index:2;max-width:92vw;max-height:86vh;width:auto;height:auto;border-radius:8px;box-shadow:0 30px 80px rgba(0,20,40,.5)}body.modal-open{overflow:hidden}.filter-empty{text-align:center;color:var(--muted);margin:28px 0 0}
+    .channel{background:var(--navy);padding:42px 40px;margin-top:26px;border-radius:10px}.channel h3{color:#fff;font:700 clamp(1.7rem,3vw,2.1rem)/1.15 var(--display);letter-spacing:-.02em;margin:.25em 0 .5em}.channel p{color:#cfe0ec;max-width:52ch;margin:0 0 1.7em}.button.gold{background:var(--gold);color:#3a2a00;border-color:var(--gold)}
     .closing{text-align:center;background:var(--sky)}.closing blockquote{font:700 clamp(2rem,4vw,3.8rem)/1.2 var(--display);color:var(--navy);max-width:900px;margin:20px auto}.closing p{max-width:700px;margin:20px auto;color:#40586c}
     footer{background:#071d33;color:#c3d1dd;padding:42px 0}.foot{display:flex;justify-content:space-between;gap:30px;align-items:flex-end}.foot strong{color:white}.foot a{color:white}
-    @media(max-width:900px){nav a:not(.button){display:none}.hero{min-height:680px;background:linear-gradient(180deg,rgba(0,33,67,.95) 0%,rgba(0,40,80,.90) 58%,rgba(0,47,95,.74) 100%),url('assets/vision-cover-01.jpg') 62% 20%/cover no-repeat}.stats,.cards{grid-template-columns:1fr 1fr}.pillars{grid-template-columns:1fr}.pillar{padding:30px 34px;border-left:0;border-top:1px solid rgba(255,255,255,.16)}.pillar:first-child{border-top:0}.record-grid{grid-template-columns:1fr}.quote{position:static}.voices{grid-template-columns:1fr}.cv{grid-template-columns:1fr}.channel{padding:34px 26px}.meta{flex-direction:column;gap:10px}.stat:nth-child(2){border-right:0}}
-    @media(max-width:580px){.wrap{width:min(100% - 28px,var(--max))}section{padding:72px 0}.nav{height:66px}.hero h1{font-size:3.1rem}.hero-inner{padding:85px 0}.stats,.cards{grid-template-columns:1fr}.pillar{padding:26px 22px}.stat{border-right:0;border-bottom:1px solid var(--line)}.foot{align-items:flex-start;flex-direction:column}}
+    @media(max-width:900px){nav a:not(.button){display:none}.hero{min-height:680px;background:linear-gradient(180deg,rgba(0,33,67,.95) 0%,rgba(0,40,80,.90) 58%,rgba(0,47,95,.74) 100%),url('assets/vision-cover-01.jpg') 62% 20%/cover no-repeat}.stats,.cards{grid-template-columns:1fr 1fr}.pillars{grid-template-columns:1fr}.pillar{padding:30px 34px;border-left:0;border-top:1px solid rgba(255,255,255,.16)}.pillar:first-child{border-top:0}.record-grid{grid-template-columns:1fr}.quote{position:static}.voices{grid-template-columns:1fr}.cv{grid-template-columns:1fr}.news-grid{grid-template-columns:1fr 1fr}.channel{padding:34px 26px}.meta{flex-direction:column;gap:10px}.stat:nth-child(2){border-right:0}}
+    @media(max-width:580px){.wrap{width:min(100% - 28px,var(--max))}section{padding:72px 0}.nav{height:66px}.hero h1{font-size:3.1rem}.hero-inner{padding:85px 0}.stats,.cards{grid-template-columns:1fr}.pillar{padding:26px 22px}.stat{border-right:0;border-bottom:1px solid var(--line)}.news-grid{grid-template-columns:1fr}.filters{border-radius:16px}.filters button{padding:.62rem 1.05rem;font-size:.9rem}.modal{padding:14px}.modal-media{min-height:190px}.modal-media h3{padding:0 20px 18px}.modal-body{padding:22px 20px 26px}.photo-grid{grid-template-columns:1fr 1fr}.lightbox{padding:14px}.lb-nav{width:40px;height:40px}.lb-prev{left:8px}.lb-next{right:8px}.foot{align-items:flex-start;flex-direction:column}}
   </style>
 </head>
 <body>
@@ -63,10 +71,134 @@
   <section class="leadership"><div class="wrap"><div class="eyebrow" style="color:#8bd0ef">Trusted transformation</div><h2>Four qualities for the next WHO.</h2><p class="intro">Experience spanning national reform, multilateral diplomacy, finance, technology and large-scale institutional leadership.</p><div class="cards"><article class="card"><h3>System Transformer</h3><p>Six pillars of health reform anchored in a new Health Law consolidating 11 fragmented laws.</p></article><article class="card"><h3>Consensus Builder</h3><p>Coalitions across nine parliamentary parties and G20 agreement that helped establish the Pandemic Fund.</p></article><article class="card"><h3>Trusted Steward</h3><p>Financial discipline that saved US$553 million on advanced medical devices and 32% on selected medicines.</p></article><article class="card"><h3>Future-Shaping Leader</h3><p>Science, AI, genomic surveillance, digital systems, local manufacturing and next-generation vaccines.</p></article></div></div></section>
   <section><div class="wrap"><div class="eyebrow">Global health in action</div><h2>Country leadership. Collective progress.</h2><div class="timeline"><article class="item"><small>G20 · Bali, 2022</small><h3>Advancing the Pandemic Fund</h3><p>Helped unite health and finance leaders around a fund launched with US$1.4 billion from 24 donors. By February 2026, it had built a portfolio of 67 projects across 128 countries and catalysed more than US$10 billion.</p></article><article class="item"><small>ASEAN · 2023</small><h3>Making One Health a regional priority</h3><p>Championed the ASEAN Leaders’ Declaration on One Health, followed by a regional network and joint action plan for 2023–2030.</p></article><article class="item"><small>Accra Reset · 2026</small><h3>A more equitable global health architecture</h3><p>Co-chairing work to move from fragmented, externally driven arrangements toward country agency, sustainable financing and collective provision of global public goods.</p></article></div></div></section>
   <section style="background:#f4f8fb"><div class="wrap"><div class="eyebrow">Voices of support</div><h2>Leadership trusted across borders.</h2><div class="voices"><article class="voice"><p>“His vision for WHO is grounded in equity, solidarity, innovation, accountability, and sustainable financing.”</p><b>H.E. Prabowo Subianto</b><span>President of the Republic of Indonesia</span></article><article class="voice"><p>“He is the kind of person who can bring together people from different backgrounds, build strong momentum, and develop strategies and systems to achieve lasting results.”</p><b>Dr Yohei Sasakawa</b><span>WHO Goodwill Ambassador for Leprosy Elimination; Honorary Chair, The Nippon Foundation</span></article><article class="voice"><p>“What distinguishes Minister Sadikin is his combination of public-health leadership, financial acumen and experience in managing large institutions. He understands that sustainable health progress must be nationally owned, adequately financed and supported by strong regional and international cooperation.”</p><b>H.E. Olusegun Obasanjo</b><span>Former President of the Federal Republic of Nigeria</span></article></div></div></section>
-  <section class="news" id="news"><div class="wrap"><div class="news-head"><div class="eyebrow">News &amp; Articles</div><h2>Updates from the campaign and trusted sources.</h2><p class="intro">Official statements, campaign updates and selected coverage on global health leadership.</p></div><div class="news-grid"><article class="channel"><div class="eyebrow" style="color:#8bd0ef">Official channel · LinkedIn</div><h3>Follow Budi Gunadi Sadikin</h3><p>Read first-hand updates on health-system transformation, international cooperation and the campaign for WHO Director-General.</p><a class="button gold" href="https://www.linkedin.com/in/budi-gunadi-sadikin-bgs/" target="_blank" rel="noopener">View LinkedIn profile ↗</a></article></div></div></section>
+  <section class="news" id="news"><div class="wrap">
+    <div class="news-head"><div class="eyebrow">News &amp; Articles</div><h2>Updates from the campaign and trusted sources.</h2><p class="intro">Official statements, campaign updates and selected coverage on global health leadership.</p></div>
+    <div class="filters" role="group" aria-label="Filter by category">
+      <button type="button" data-filter="all" aria-pressed="true">All</button>
+      <button type="button" data-filter="news" aria-pressed="false">News</button>
+      <button type="button" data-filter="articles" aria-pressed="false">Articles</button>
+    </div>
+    <div class="news-grid">
+      <article class="post" data-category="news"><div class="post-media"><img src="assets/accra-reset-01.jpg" alt="Panel members on stage at the Accra Reset Full Circle convening during UNGA 81, holding the report A Sovereign Future for Health"><span class="badge">Accra Reset</span><h3>A Sovereign Future for Health | Accra Reset</h3></div><div class="post-body"><p>Full Circle convening, sidelines of UNGA 81 · New York · 21 September 2026</p><span class="go" aria-hidden="true">&#8599;</span></div><button class="post-open" type="button" aria-haspopup="dialog" data-modal="modal-accra"><span class="sr-only">Read: A Sovereign Future for Health | Accra Reset</span></button></article>
+    </div>
+    <p class="filter-empty" hidden>Official updates will be available here soon.</p>
+    <article class="channel"><div class="eyebrow" style="color:#8bd0ef">Official channel · LinkedIn</div><h3>Follow Budi Gunadi Sadikin</h3><p>Read first-hand updates on health-system transformation, international cooperation and the campaign for WHO Director-General.</p><a class="button gold" href="https://www.linkedin.com/in/budi-gunadi-sadikin-bgs/" target="_blank" rel="noopener">View LinkedIn profile ↗</a></article>
+  </div></section>
   <section class="human"><div class="wrap"><div class="eyebrow" style="color:#9fdcf5">Walk the talk</div><h2>Health leadership begins by example.</h2><p>Budi enjoys running and good food, embracing a healthy life that is enjoyable and fulfilling. At 60 he completed his first marathon in Berlin, followed by London in 2026. In Jakarta, he runs with communities including runners with visual impairments, and shares practical guidance to help millions exercise, eat and sleep well.</p></div></section>
   <section><div class="wrap"><div class="eyebrow">Selected experience</div><h2>Leadership across systems.</h2><div class="cv"><div class="cv-col"><h3>National leadership</h3><p><b>2020–present · Minister of Health</b><br>Led Indonesia’s COVID-19 response and six-pillar health transformation.</p><p><b>2019–2020 · Vice Minister of State-Owned Enterprises</b><br>Oversaw 64 enterprises across strategic sectors.</p><p><b>2017–2019 · Group CEO, MIND ID / President Director, Inalum</b><br>Led the US$3.85 billion Freeport Indonesia divestment.</p><p><b>2013–2016 · President Director, Bank Mandiri</b><br>Led Indonesia’s largest bank, with nearly 2,500 branches and 100,000 personnel.</p></div><div class="cv-col"><h3>Global and regional leadership</h3><p><b>Accra Reset</b> · Co-Chair, High-Level Panel on Reform of the Global Health Architecture and Governance</p><p><b>Gavi</b> · Board Member representing Western Pacific and South-East Asia</p><p><b>TB Vaccine Accelerator Council</b> · Co-Chair</p><p><b>Stop TB Partnership</b> · Board Member</p><p><b>The Lancet</b> · Commissioner on Health System Performance Assessment</p><h3>Credentials</h3><p><b>B.Sc., Physics</b><br>Bandung Institute of Technology, 1988</p></div></div></div></section>
   <section class="closing"><div class="wrap"><div class="eyebrow">A WHO that delivers</div><blockquote>“I would lead a WHO that listens, responds and delivers, with countries and for people, so that everyone can live a long and healthy life.”</blockquote><p>Budi Gunadi Sadikin · Candidate for Director-General of the World Health Organization, 2027–2032</p><a class="button" href="BGS4WHO_Vision.pdf" download="BGS4WHO_Vision.pdf">Download the complete vision booklet</a></div></section>
 </main>
 <footer><div class="wrap foot"><div><strong>BUDI GUNADI SADIKIN</strong><br>Healthy Long Lives for All.</div><div><a href="mailto:office@bgs4who.com">Contact: office@bgs4who.com</a><br><a href="https://bgs4who.com">BGS4WHO.com</a></div></div></footer>
+<div class="modal" id="modal-accra" hidden>
+  <div class="modal-backdrop" data-close></div>
+  <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modal-accra-title">
+    <button class="modal-close" type="button" data-close aria-label="Close">&#215;</button>
+    <div class="modal-media"><img src="assets/accra-reset-01.jpg" alt="Panel members on stage at the Accra Reset Full Circle convening during UNGA 81"><span class="badge">Accra Reset</span><h3 id="modal-accra-title">A Sovereign Future for Health | Accra Reset</h3></div>
+    <div class="modal-body">
+      <p>(21/09/26, New York) -- A year ago, the Accra Reset was a call for change. Today in New York, the question is harder: how do we make that change work in practice?</p>
+      <p>For me, this moment carries a special meaning. Bandung is where I spent my university years and where I met my wife. But the world remembers Bandung for something much larger. In 1955, leaders from Asia and Africa gathered there to affirm political sovereignty&#8212;the right of countries to shape their own future. Today, that same spirit is being carried forward: from political sovereignty to health sovereignty.</p>
+      <p>At the Full Circle convening on the sidelines of UNGA 81, I had the privilege of speaking as Co-Chair of the High-Level Panel on Reform of the Global Health Architecture and Governance, as we launched our report, A Sovereign Future for Health.</p>
+      <p>At its core, the report is about strengthening country agency over the decisions, financing, and data that shape health systems, while ensuring global cooperation where collective action makes us stronger.</p>
+      <p>I am grateful to President John Dramani Mahama, my fellow Co-Chairs Peter Piot, <a href="https://www.linkedin.com/in/elhadj-as-sy-90a073155/" target="_blank" rel="noopener">Elhadj As Sy</a>, and <a href="https://www.linkedin.com/in/priscila-ferraz-19ab6962/" target="_blank" rel="noopener">Priscila Ferraz</a>, and all members of the High-Level Panel for their dedication and collective effort.</p>
+      <p>The real work begins now: turning strong recommendations into implementation that countries can own and people can feel in their lives.</p>
+      <p>From Bandung to Accra, it&#8217;s time to turn sovereignty from principle to impact, into better health for 8 billion citizens of the world.</p>
+      <p class="tags">#UNGA81 #AccraReset #HealthSovereignty</p>
+      <div class="modal-links">
+        <p>Watch the full report here: <a href="https://www.accrareset.org/UNGA81/HLP" target="_blank" rel="noopener">https://www.accrareset.org/UNGA81/HLP</a></p>
+        <p>Live event: <a href="https://www.accrareset.org/UNGA81/stream" target="_blank" rel="noopener">https://www.accrareset.org/UNGA81/stream</a></p>
+      </div>
+      <div class="photo-grid">
+        <button class="photo-open" type="button" data-full="assets/accra-reset-02.jpg" aria-label="Enlarge photo: Budi Gunadi Sadikin greeting a delegate at UNGA 81"><img src="assets/accra-reset-02.jpg" alt="Budi Gunadi Sadikin greeting a delegate at UNGA 81" loading="lazy"></button>
+        <button class="photo-open" type="button" data-full="assets/accra-reset-03.jpg" aria-label="Enlarge photo: panel session on stage at the Accra Reset convening"><img src="assets/accra-reset-03.jpg" alt="Panel session on stage at the Accra Reset convening" loading="lazy"></button>
+        <button class="photo-open" type="button" data-full="assets/accra-reset-04.jpg" aria-label="Enlarge photo: Budi Gunadi Sadikin speaking at the Accra Reset podium"><img class="portrait" src="assets/accra-reset-04.jpg" alt="Budi Gunadi Sadikin speaking at the Accra Reset podium" loading="lazy"></button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="lightbox" id="lightbox" hidden>
+  <div class="modal-backdrop" data-close></div>
+  <button class="lb-nav lb-prev" type="button" data-step="-1" aria-label="Previous photo"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg></button>
+  <img id="lightbox-img" src="" alt="">
+  <button class="lb-nav lb-next" type="button" data-step="1" aria-label="Next photo"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18l6-6-6-6"/></svg></button>
+  <button class="modal-close" type="button" data-close aria-label="Close">&#215;</button>
+</div>
+<script>
+(function(){
+  var bar=document.querySelector('.filters'); if(!bar) return;
+  var posts=[].slice.call(document.querySelectorAll('.news-grid .post'));
+  var empty=document.querySelector('.filter-empty');
+  bar.addEventListener('click',function(e){
+    var btn=e.target.closest('button'); if(!btn) return;
+    var f=btn.dataset.filter, shown=0;
+    [].forEach.call(bar.querySelectorAll('button'),function(b){b.setAttribute('aria-pressed', b===btn?'true':'false');});
+    posts.forEach(function(p){var ok=(f==='all'||p.dataset.category===f); p.hidden=!ok; if(ok) shown++;});
+    if(empty) empty.hidden=(shown>0);
+  });
+})();
+(function(){
+  var stack=[];
+  var photos=[].slice.call(document.querySelectorAll('[data-full]'));
+  var lbIndex=0;
+  var overlays=function(){ return [].slice.call(document.querySelectorAll('.modal,.lightbox')); };
+  function showPhoto(i){
+    var img=document.getElementById('lightbox-img');
+    if(!img || !photos.length) return;
+    lbIndex=(i%photos.length+photos.length)%photos.length;
+    var p=photos[lbIndex];
+    img.src=p.dataset.full;
+    var inner=p.querySelector('img');
+    img.alt=inner ? inner.alt : '';
+  }
+  function sync(){
+    var top=stack[stack.length-1]||null;
+    document.body.classList.toggle('modal-open', !!top);
+    overlays().forEach(function(el){
+      if(top && el!==top) el.setAttribute('inert',''); else el.removeAttribute('inert');
+    });
+    [].forEach.call(document.querySelectorAll('header,main,footer'), function(el){
+      if(top) el.setAttribute('inert',''); else el.removeAttribute('inert');
+    });
+  }
+  function open(el, trigger){
+    if(!el || stack.indexOf(el)>-1) return;
+    el.__trigger=trigger||document.activeElement;
+    el.hidden=false;
+    stack.push(el);
+    sync();
+    var c=el.querySelector('.modal-close'); if(c) c.focus();
+  }
+  function close(el){
+    if(!el) return;
+    el.hidden=true;
+    stack=stack.filter(function(x){ return x!==el; });
+    sync();
+    if(el.__trigger && el.__trigger.focus) el.__trigger.focus();
+  }
+  // sembunyikan tombol geser kalau fotonya cuma satu
+  var navs=document.querySelectorAll('.lb-nav');
+  if(photos.length<2){ [].forEach.call(navs,function(b){ b.hidden=true; }); }
+  document.addEventListener('click',function(e){
+    var t=e.target.closest('[data-modal]');
+    if(t){ open(document.getElementById(t.dataset.modal), t); return; }
+    var p=e.target.closest('[data-full]');
+    if(p){
+      var box=document.getElementById('lightbox');
+      if(box){ showPhoto(photos.indexOf(p)); open(box, p); }
+      return;
+    }
+    var s=e.target.closest('[data-step]');
+    if(s){ showPhoto(lbIndex+parseInt(s.dataset.step,10)); return; }
+    var c=e.target.closest('[data-close]');
+    if(c){ close(c.closest('.modal,.lightbox')); }
+  });
+  document.addEventListener('keydown',function(e){
+    var top=stack[stack.length-1];
+    if(!top) return;
+    if(e.key==='Escape'){ close(top); return; }
+    if(top.id!=='lightbox') return;
+    if(e.key==='ArrowLeft') showPhoto(lbIndex-1);
+    if(e.key==='ArrowRight') showPhoto(lbIndex+1);
+  });
+})();
+</script>
 </body></html>
