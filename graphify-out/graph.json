@@ -1,0 +1,561 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "audit-001-2026-09-19.md",
+      "file_type": "document",
+      "source_file": "audit-001-2026-09-19.md",
+      "source_location": "L1",
+      "id": "audit_001_2026_09_19_md",
+      "community": 0,
+      "norm_label": "audit-001-2026-09-19.md"
+    },
+    {
+      "label": "antislop audit 001 \u2014 2026-09-19",
+      "file_type": "document",
+      "source_file": "audit-001-2026-09-19.md",
+      "source_location": "L1",
+      "id": "anti_slop_audit_001_2026_09_19_antislop_audit_001_2026_09_19",
+      "community": 0,
+      "norm_label": "antislop audit 001 \u2014 2026-09-19"
+    },
+    {
+      "label": "HIGH \u2014 Hard Gate",
+      "file_type": "document",
+      "source_file": "audit-001-2026-09-19.md",
+      "source_location": "L14",
+      "id": "anti_slop_audit_001_2026_09_19_high_hard_gate",
+      "community": 0,
+      "norm_label": "high \u2014 hard gate"
+    },
+    {
+      "label": "1. R-25 \u2014 Hero text fails WCAG AA at every breakpoint",
+      "file_type": "document",
+      "source_file": "audit-001-2026-09-19.md",
+      "source_location": "L16",
+      "id": "anti_slop_audit_001_2026_09_19_1_r_25_hero_text_fails_wcag_aa_at_every_breakpoint",
+      "community": 0,
+      "norm_label": "1. r-25 \u2014 hero text fails wcag aa at every breakpoint"
+    },
+    {
+      "label": "2. R-02 \u2014 Seven em dashes",
+      "file_type": "document",
+      "source_file": "audit-001-2026-09-19.md",
+      "source_location": "L36",
+      "id": "anti_slop_audit_001_2026_09_19_2_r_02_seven_em_dashes",
+      "community": 0,
+      "norm_label": "2. r-02 \u2014 seven em dashes"
+    },
+    {
+      "label": "MEDIUM \u2014 Purpose-Gate",
+      "file_type": "document",
+      "source_file": "audit-001-2026-09-19.md",
+      "source_location": "L46",
+      "id": "anti_slop_audit_001_2026_09_19_medium_purpose_gate",
+      "community": 4,
+      "norm_label": "medium \u2014 purpose-gate"
+    },
+    {
+      "label": "3. C-4 / R-35 \u2014 Cloudflare challenge script left in the mirror",
+      "file_type": "document",
+      "source_file": "audit-001-2026-09-19.md",
+      "source_location": "L48",
+      "id": "anti_slop_audit_001_2026_09_19_3_c_4_r_35_cloudflare_challenge_script_left_in_the_mirror",
+      "community": 4,
+      "norm_label": "3. c-4 / r-35 \u2014 cloudflare challenge script left in the mirror"
+    },
+    {
+      "label": "4. R-14 \u2014 Identical feature cards",
+      "file_type": "document",
+      "source_file": "audit-001-2026-09-19.md",
+      "source_location": "L53",
+      "id": "anti_slop_audit_001_2026_09_19_4_r_14_identical_feature_cards",
+      "community": 4,
+      "norm_label": "4. r-14 \u2014 identical feature cards"
+    },
+    {
+      "label": "5. R-06 \u2014 `Inter` is never loaded",
+      "file_type": "document",
+      "source_file": "audit-001-2026-09-19.md",
+      "source_location": "L58",
+      "id": "anti_slop_audit_001_2026_09_19_5_r_06_inter_is_never_loaded",
+      "community": 4,
+      "norm_label": "5. r-06 \u2014 `inter` is never loaded"
+    },
+    {
+      "label": "LOW \u2014 Quality Locks",
+      "file_type": "document",
+      "source_file": "audit-001-2026-09-19.md",
+      "source_location": "L65",
+      "id": "anti_slop_audit_001_2026_09_19_low_quality_locks",
+      "community": 5,
+      "norm_label": "low \u2014 quality locks"
+    },
+    {
+      "label": "6. R-32 \u2014 No explicit focus indicator",
+      "file_type": "document",
+      "source_file": "audit-001-2026-09-19.md",
+      "source_location": "L67",
+      "id": "anti_slop_audit_001_2026_09_19_6_r_32_no_explicit_focus_indicator",
+      "community": 5,
+      "norm_label": "6. r-32 \u2014 no explicit focus indicator"
+    },
+    {
+      "label": "7. R-37 / R-31 \u2014 Direction not written down",
+      "file_type": "document",
+      "source_file": "audit-001-2026-09-19.md",
+      "source_location": "L72",
+      "id": "anti_slop_audit_001_2026_09_19_7_r_37_r_31_direction_not_written_down",
+      "community": 5,
+      "norm_label": "7. r-37 / r-31 \u2014 direction not written down"
+    },
+    {
+      "label": "8. R-29 \u2014 Palette size not declared",
+      "file_type": "document",
+      "source_file": "audit-001-2026-09-19.md",
+      "source_location": "L76",
+      "id": "anti_slop_audit_001_2026_09_19_8_r_29_palette_size_not_declared",
+      "community": 5,
+      "norm_label": "8. r-29 \u2014 palette size not declared"
+    },
+    {
+      "label": "Passes (with evidence)",
+      "file_type": "document",
+      "source_file": "audit-001-2026-09-19.md",
+      "source_location": "L83",
+      "id": "anti_slop_audit_001_2026_09_19_passes_with_evidence",
+      "community": 0,
+      "norm_label": "passes (with evidence)"
+    },
+    {
+      "label": "Not verified",
+      "file_type": "document",
+      "source_file": "audit-001-2026-09-19.md",
+      "source_location": "L97",
+      "id": "anti_slop_audit_001_2026_09_19_not_verified",
+      "community": 0,
+      "norm_label": "not verified"
+    },
+    {
+      "label": "audit-002-2026-09-19.md",
+      "file_type": "document",
+      "source_file": "audit-002-2026-09-19.md",
+      "source_location": "L1",
+      "id": "audit_002_2026_09_19_md",
+      "community": 1,
+      "norm_label": "audit-002-2026-09-19.md"
+    },
+    {
+      "label": "antislop audit 002 \u2014 2026-09-19",
+      "file_type": "document",
+      "source_file": "audit-002-2026-09-19.md",
+      "source_location": "L1",
+      "id": "anti_slop_audit_002_2026_09_19_antislop_audit_002_2026_09_19",
+      "community": 1,
+      "norm_label": "antislop audit 002 \u2014 2026-09-19"
+    },
+    {
+      "label": "Fixed",
+      "file_type": "document",
+      "source_file": "audit-002-2026-09-19.md",
+      "source_location": "L11",
+      "id": "anti_slop_audit_002_2026_09_19_fixed",
+      "community": 2,
+      "norm_label": "fixed"
+    },
+    {
+      "label": "1. R-25 \u2014 Hero contrast (was FAIL at every breakpoint) \u2014 FIXED",
+      "file_type": "document",
+      "source_file": "audit-002-2026-09-19.md",
+      "source_location": "L13",
+      "id": "anti_slop_audit_002_2026_09_19_1_r_25_hero_contrast_was_fail_at_every_breakpoint_fixed",
+      "community": 2,
+      "norm_label": "1. r-25 \u2014 hero contrast (was fail at every breakpoint) \u2014 fixed"
+    },
+    {
+      "label": "2. R-02 \u2014 Em dashes \u2014 FIXED",
+      "file_type": "document",
+      "source_file": "audit-002-2026-09-19.md",
+      "source_location": "L34",
+      "id": "anti_slop_audit_002_2026_09_19_2_r_02_em_dashes_fixed",
+      "community": 2,
+      "norm_label": "2. r-02 \u2014 em dashes \u2014 fixed"
+    },
+    {
+      "label": "3. C-4 / R-35 \u2014 Cloudflare challenge script \u2014 FIXED",
+      "file_type": "document",
+      "source_file": "audit-002-2026-09-19.md",
+      "source_location": "L42",
+      "id": "anti_slop_audit_002_2026_09_19_3_c_4_r_35_cloudflare_challenge_script_fixed",
+      "community": 2,
+      "norm_label": "3. c-4 / r-35 \u2014 cloudflare challenge script \u2014 fixed"
+    },
+    {
+      "label": "6. R-32 \u2014 Focus indicator \u2014 FIXED",
+      "file_type": "document",
+      "source_file": "audit-002-2026-09-19.md",
+      "source_location": "L47",
+      "id": "anti_slop_audit_002_2026_09_19_6_r_32_focus_indicator_fixed",
+      "community": 2,
+      "norm_label": "6. r-32 \u2014 focus indicator \u2014 fixed"
+    },
+    {
+      "label": "Resolved by written reason, no visual change",
+      "file_type": "document",
+      "source_file": "audit-002-2026-09-19.md",
+      "source_location": "L53",
+      "id": "anti_slop_audit_002_2026_09_19_resolved_by_written_reason_no_visual_change",
+      "community": 3,
+      "norm_label": "resolved by written reason, no visual change"
+    },
+    {
+      "label": "4. R-14 \u2014 Identical feature cards \u2014 ACCEPTED WITH REASON",
+      "file_type": "document",
+      "source_file": "audit-002-2026-09-19.md",
+      "source_location": "L55",
+      "id": "anti_slop_audit_002_2026_09_19_4_r_14_identical_feature_cards_accepted_with_reason",
+      "community": 3,
+      "norm_label": "4. r-14 \u2014 identical feature cards \u2014 accepted with reason"
+    },
+    {
+      "label": "5. R-06 \u2014 Typography \u2014 SUPERSEDED",
+      "file_type": "document",
+      "source_file": "audit-002-2026-09-19.md",
+      "source_location": "L61",
+      "id": "anti_slop_audit_002_2026_09_19_5_r_06_typography_superseded",
+      "community": 3,
+      "norm_label": "5. r-06 \u2014 typography \u2014 superseded"
+    },
+    {
+      "label": "7. R-37 / R-31 \u2014 Direction \u2014 FIXED",
+      "file_type": "document",
+      "source_file": "audit-002-2026-09-19.md",
+      "source_location": "L71",
+      "id": "anti_slop_audit_002_2026_09_19_7_r_37_r_31_direction_fixed",
+      "community": 3,
+      "norm_label": "7. r-37 / r-31 \u2014 direction \u2014 fixed"
+    },
+    {
+      "label": "8. R-29 \u2014 Palette \u2014 DOCUMENTED",
+      "file_type": "document",
+      "source_file": "audit-002-2026-09-19.md",
+      "source_location": "L76",
+      "id": "anti_slop_audit_002_2026_09_19_8_r_29_palette_documented",
+      "community": 3,
+      "norm_label": "8. r-29 \u2014 palette \u2014 documented"
+    },
+    {
+      "label": "Delivery Gate",
+      "file_type": "document",
+      "source_file": "audit-002-2026-09-19.md",
+      "source_location": "L80",
+      "id": "anti_slop_audit_002_2026_09_19_delivery_gate",
+      "community": 1,
+      "norm_label": "delivery gate"
+    },
+    {
+      "label": "Click-through evidence (R-35)",
+      "file_type": "document",
+      "source_file": "audit-002-2026-09-19.md",
+      "source_location": "L92",
+      "id": "anti_slop_audit_002_2026_09_19_click_through_evidence_r_35",
+      "community": 1,
+      "norm_label": "click-through evidence (r-35)"
+    },
+    {
+      "label": "Remaining",
+      "file_type": "document",
+      "source_file": "audit-002-2026-09-19.md",
+      "source_location": "L100",
+      "id": "anti_slop_audit_002_2026_09_19_remaining",
+      "community": 1,
+      "norm_label": "remaining"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "audit-001-2026-09-19.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "audit_001_2026_09_19_md",
+      "target": "anti_slop_audit_001_2026_09_19_antislop_audit_001_2026_09_19",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "audit-001-2026-09-19.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "anti_slop_audit_001_2026_09_19_antislop_audit_001_2026_09_19",
+      "target": "anti_slop_audit_001_2026_09_19_high_hard_gate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "audit-001-2026-09-19.md",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "anti_slop_audit_001_2026_09_19_antislop_audit_001_2026_09_19",
+      "target": "anti_slop_audit_001_2026_09_19_medium_purpose_gate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "audit-001-2026-09-19.md",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "anti_slop_audit_001_2026_09_19_antislop_audit_001_2026_09_19",
+      "target": "anti_slop_audit_001_2026_09_19_low_quality_locks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "audit-001-2026-09-19.md",
+      "source_location": "L83",
+      "weight": 1.0,
+      "source": "anti_slop_audit_001_2026_09_19_antislop_audit_001_2026_09_19",
+      "target": "anti_slop_audit_001_2026_09_19_passes_with_evidence",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "audit-001-2026-09-19.md",
+      "source_location": "L97",
+      "weight": 1.0,
+      "source": "anti_slop_audit_001_2026_09_19_antislop_audit_001_2026_09_19",
+      "target": "anti_slop_audit_001_2026_09_19_not_verified",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "audit-001-2026-09-19.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "anti_slop_audit_001_2026_09_19_high_hard_gate",
+      "target": "anti_slop_audit_001_2026_09_19_1_r_25_hero_text_fails_wcag_aa_at_every_breakpoint",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "audit-001-2026-09-19.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "anti_slop_audit_001_2026_09_19_high_hard_gate",
+      "target": "anti_slop_audit_001_2026_09_19_2_r_02_seven_em_dashes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "audit-001-2026-09-19.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "anti_slop_audit_001_2026_09_19_medium_purpose_gate",
+      "target": "anti_slop_audit_001_2026_09_19_3_c_4_r_35_cloudflare_challenge_script_left_in_the_mirror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "audit-001-2026-09-19.md",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "anti_slop_audit_001_2026_09_19_medium_purpose_gate",
+      "target": "anti_slop_audit_001_2026_09_19_4_r_14_identical_feature_cards",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "audit-001-2026-09-19.md",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "anti_slop_audit_001_2026_09_19_medium_purpose_gate",
+      "target": "anti_slop_audit_001_2026_09_19_5_r_06_inter_is_never_loaded",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "audit-001-2026-09-19.md",
+      "source_location": "L67",
+      "weight": 1.0,
+      "source": "anti_slop_audit_001_2026_09_19_low_quality_locks",
+      "target": "anti_slop_audit_001_2026_09_19_6_r_32_no_explicit_focus_indicator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "audit-001-2026-09-19.md",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "anti_slop_audit_001_2026_09_19_low_quality_locks",
+      "target": "anti_slop_audit_001_2026_09_19_7_r_37_r_31_direction_not_written_down",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "audit-001-2026-09-19.md",
+      "source_location": "L76",
+      "weight": 1.0,
+      "source": "anti_slop_audit_001_2026_09_19_low_quality_locks",
+      "target": "anti_slop_audit_001_2026_09_19_8_r_29_palette_size_not_declared",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "audit-002-2026-09-19.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "audit_002_2026_09_19_md",
+      "target": "anti_slop_audit_002_2026_09_19_antislop_audit_002_2026_09_19",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "audit-002-2026-09-19.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "anti_slop_audit_002_2026_09_19_antislop_audit_002_2026_09_19",
+      "target": "anti_slop_audit_002_2026_09_19_fixed",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "audit-002-2026-09-19.md",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "anti_slop_audit_002_2026_09_19_antislop_audit_002_2026_09_19",
+      "target": "anti_slop_audit_002_2026_09_19_resolved_by_written_reason_no_visual_change",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "audit-002-2026-09-19.md",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "anti_slop_audit_002_2026_09_19_antislop_audit_002_2026_09_19",
+      "target": "anti_slop_audit_002_2026_09_19_delivery_gate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "audit-002-2026-09-19.md",
+      "source_location": "L92",
+      "weight": 1.0,
+      "source": "anti_slop_audit_002_2026_09_19_antislop_audit_002_2026_09_19",
+      "target": "anti_slop_audit_002_2026_09_19_click_through_evidence_r_35",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "audit-002-2026-09-19.md",
+      "source_location": "L100",
+      "weight": 1.0,
+      "source": "anti_slop_audit_002_2026_09_19_antislop_audit_002_2026_09_19",
+      "target": "anti_slop_audit_002_2026_09_19_remaining",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "audit-002-2026-09-19.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "anti_slop_audit_002_2026_09_19_fixed",
+      "target": "anti_slop_audit_002_2026_09_19_1_r_25_hero_contrast_was_fail_at_every_breakpoint_fixed",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "audit-002-2026-09-19.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "anti_slop_audit_002_2026_09_19_fixed",
+      "target": "anti_slop_audit_002_2026_09_19_2_r_02_em_dashes_fixed",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "audit-002-2026-09-19.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "anti_slop_audit_002_2026_09_19_fixed",
+      "target": "anti_slop_audit_002_2026_09_19_3_c_4_r_35_cloudflare_challenge_script_fixed",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "audit-002-2026-09-19.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "anti_slop_audit_002_2026_09_19_fixed",
+      "target": "anti_slop_audit_002_2026_09_19_6_r_32_focus_indicator_fixed",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "audit-002-2026-09-19.md",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "anti_slop_audit_002_2026_09_19_resolved_by_written_reason_no_visual_change",
+      "target": "anti_slop_audit_002_2026_09_19_4_r_14_identical_feature_cards_accepted_with_reason",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "audit-002-2026-09-19.md",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "anti_slop_audit_002_2026_09_19_resolved_by_written_reason_no_visual_change",
+      "target": "anti_slop_audit_002_2026_09_19_5_r_06_typography_superseded",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "audit-002-2026-09-19.md",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "anti_slop_audit_002_2026_09_19_resolved_by_written_reason_no_visual_change",
+      "target": "anti_slop_audit_002_2026_09_19_7_r_37_r_31_direction_fixed",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "audit-002-2026-09-19.md",
+      "source_location": "L76",
+      "weight": 1.0,
+      "source": "anti_slop_audit_002_2026_09_19_resolved_by_written_reason_no_visual_change",
+      "target": "anti_slop_audit_002_2026_09_19_8_r_29_palette_documented",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "02c469f57be79e51040691a687c16ded46c707cd"
+}
